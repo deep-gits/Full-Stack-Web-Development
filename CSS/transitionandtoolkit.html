@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition and tooltips</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            transition: width 2s,height 3s;
+            transition-timing-function: ease-out;
+            transition-delay: 3s;
+
+        }
+
+        p{
+            background-color: palevioletred;
+            color: red;
+        }
+
+        div:hover{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!--Transitions-->
+    <div>Anshika i love you</div>
+
+    <p title="Anshika bubu">I LOVE YOU </p>
+</body>
+</html>
